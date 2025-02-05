@@ -1,0 +1,16 @@
+.env
+public/uploads
+error_log
+.htaccess
+ftp*
+license*
+/vendor/
+wp-content/logs
+**/*.log
+wp-content/cache/*
+# Exclude W3tc plugin cache files
+nginx.conf
+wp-content/advanced-cache.php
+wp-content/db.php
+wp-content/object-cache.php
+wp-content/mu-plugins/wp-rest-cache.php
