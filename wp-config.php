@@ -51,10 +51,10 @@ define('WPCACHEHOME', __DIR__ . 'wp-content/plugins/wp-super-cache/');
 define('DB_NAME', isset($_ENV['DB_NAME']) ? $_ENV['DB_NAME'] : 'momcraftedlife_wordpress');
 
 /** Database username */
-define('DB_USER', isset($_ENV['DB_USER']) ? $_ENV['DB_USER'] : 'admin');
+define('DB_USER', isset($_ENV['DB_USER']) ? $_ENV['DB_USER'] : 'momcraftedlife');
 
 /** Database password */
-define('DB_PASSWORD', isset($_ENV['DB_PASSWORD']) ? $_ENV['DB_PASSWORD'] : 'G65LHgyupu8T3oQ1jLAL');
+define('DB_PASSWORD', isset($_ENV['DB_PASSWORD']) ? $_ENV['DB_PASSWORD'] : 'momcraftedlife123');
 
 /** Database hostname */
 define('DB_HOST', isset($_ENV['DB_HOST']) ? $_ENV['DB_HOST'] : 'localhost');

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <!-- Gradients for subtle color transitions -->
+    <linearGradient id="softCoral" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9980;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#ff9980;stop-opacity:0.1"/>
+    </linearGradient>
+    <linearGradient id="softTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8d1d1;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#2b5d5d;stop-opacity:0.1"/>
+    </linearGradient>
+    
+    <pattern id="creative-mom-pattern" x="0" y="0" width="400" height="400" patternUnits="userSpaceOnUse">
+      <!-- Background -->
+      <rect width="400" height="400" fill="#f5efe7"/>
+
+      <!-- Teddy Bear -->
+      <path d="M50 50c0 8.3-6.7 15-15 15s-15-6.7-15-15 6.7-15 15-15 15 6.7 15 15zM28 45a2 2 0 1 1-4 0 2 2 0 0 1 4 0M42 45a2 2 0 1 1-4 0 2 2 0 0 1 4 0M35 50c-3 0-6-3-6 0s3 5 6 5 6-2 6-5-3 0-6 0z" fill="#f8e6d8" stroke="#d4c1b7" stroke-width="1" opacity="0.25"/>
+      
+      <!-- Utensils -->
+      <path d="M180 250v-20M175 250v-20M185 250v-20" fill="none" stroke="#b3d9cc" stroke-width="1" opacity="0.2"/>
+      <path d="M220 230c0 6-4 10-10 10s-10-4-10-10 4-20 10-20 10 14 10 20z" fill="none" stroke="#b3d9cc" stroke-width="1" opacity="0.2"/>
+      
+      <!-- Lipstick -->
+      <path d="M120 100l-5-15h10zM117 85h6v12h-6z" fill="#ffd9d9" stroke="#ffb3b3" stroke-width="1" opacity="0.2"/>
+      
+        <!-- Apple -->
+      <circle cx="90" cy="150" r="8" fill="#e6ffe6" stroke="#b3ffb3" stroke-width="1" opacity="0.2"/>
+      <path d="M90 142c2-2 4 0 4 2" fill="none" stroke="#b3ffb3" stroke-width="1" opacity="0.2"/>
+      
+      <!-- Scattered Elements -->
+      <circle cx="140" cy="180" r="2" fill="#b3d9ff" opacity="0.3"/>
+      <circle cx="220" cy="60" r="2" fill="#ffb3d9" opacity="0.3"/>
+      <circle cx="60" cy="270" r="2" fill="#d9b3ff" opacity="0.3"/>
+      <circle cx="250" cy="220" r="2" fill="#b3ffb3" opacity="0.3"/>
+      <circle cx="180" cy="120" r="1" fill="#ffcccc" opacity="0.3"/>
+      <circle cx="100" cy="80" r="1" fill="#b3d9ff" opacity="0.3"/>
+      
+      <!-- Small Decorative Dots -->
+      <g opacity="0.4">
+        <circle cx="150" cy="150" r="1" fill="#ffb3d9"/>
+        <circle cx="155" cy="150" r="1" fill="#b3d9ff"/>
+        <circle cx="160" cy="150" r="1" fill="#b3ffb3"/>
+      </g>
+      
+      <!-- Abstract Watercolor-like Shapes -->
+      <circle cx="200" cy="200" r="160" fill="url(#softCoral)" opacity="0.2"/>
+      <circle cx="100" cy="300" r="120" fill="url(#softTeal)" opacity="0.2"/>
+      
+      <!-- Heart made of small items -->
+      <path d="M200 150 Q 180 120 150 120 Q 120 120 120 150 T 200 200 T 280 150 Q 280 120 250 120 Q 220 120 200 150" 
+            fill="none" stroke="#ff9980" stroke-width="0.5" opacity="0.2"/>
+      
+      <!-- Baby Mobile -->
+      <path d="M150 50 L200 30 L250 50" fill="none" stroke="#2b5d5d" stroke-width="0.5" opacity="0.3"/>
+      <circle cx="150" cy="60" r="5" fill="#a8d1d1" opacity="0.3"/>
+      <circle cx="200" cy="65" r="5" fill="#ffb3b3" opacity="0.3"/>
+      <circle cx="250" cy="60" r="5" fill="#ff9980" opacity="0.3"/>
+      
+      <!-- Crafting Elements -->
+      <path d="M60 180 Q80 160 100 180 T140 180" fill="none" stroke="#2b5d5d" stroke-width="0.5" opacity="0.2" 
+            transform="rotate(45, 100, 180)"/>
+      <circle cx="300" cy="150" r="20" fill="none" stroke="#ffb3b3" stroke-width="0.5" opacity="0.2"/>
+      <path d="M280 140 L320 160 M320 140 L280 160" stroke="#ff9980" stroke-width="0.5" opacity="0.2"/>
+      
+      <!-- Original Elements Reimagined -->
+      <!-- Teddy -->
+      <g transform="translate(320,280) rotate(-15)">
+        <path d="M0 0c0 8-6 15-15 15s-15-7-15-15 6-15 15-15 15 7 15 15z" fill="#ff9980" opacity="0.15"/>
+        <circle cx="-10" cy="-5" r="2" fill="#2b5d5d" opacity="0.2"/>
+        <circle cx="0" cy="-5" r="2" fill="#2b5d5d" opacity="0.2"/>
+      </g>
+      
+      <!-- New Elements -->
+      <!-- Baby Footprints -->
+      <g transform="translate(100,250) rotate(30)">
+        <path d="M0 0c2 0 4 2 4 4s-2 4-4 4-4-2-4-4 2-4 4-4z" fill="#a8d1d1" opacity="0.2"/>
+        <circle cx="2" cy="-2" r="1" fill="#a8d1d1" opacity="0.2"/>
+        <circle cx="-2" cy="-2" r="1" fill="#a8d1d1" opacity="0.2"/>
+        <circle cx="2" cy="2" r="1" fill="#a8d1d1" opacity="0.2"/>
+        <circle cx="-2" cy="2" r="1" fill="#a8d1d1" opacity="0.2"/>
+      </g>
+      
+      <!-- Scattered Small Elements -->
+      <g opacity="0.2">
+        <circle cx="50" cy="50" r="2" fill="#ff9980"/>
+        <circle cx="350" cy="350" r="2" fill="#2b5d5d"/>
+        <path d="M150 350l4 4l-4 4l-4-4z" fill="#ffb3b3"/>
+        <path d="M350 150l3 3l-3 3l-3-3z" fill="#a8d1d1"/>
+      </g>
+      
+      <!-- Gentle Wave Patterns -->
+      <path d="M0 300 Q 100 280 200 300 T 400 300" fill="none" stroke="#2b5d5d" stroke-width="0.5" opacity="0.1"/>
+      <path d="M0 310 Q 100 290 200 310 T 400 310" fill="none" stroke="#ff9980" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Apply the pattern -->
+  <rect width="100%" height="100%" fill="url(#creative-mom-pattern)"/>
+</svg>
