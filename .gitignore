@@ -14,3 +14,5 @@ wp-content/advanced-cache.php
 wp-content/db.php
 wp-content/object-cache.php
 wp-content/mu-plugins/wp-rest-cache.php
+
+wp-content/boost-cache

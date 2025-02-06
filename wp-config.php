@@ -113,7 +113,7 @@ $table_prefix = 'wp_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define('SCRIPT_DEBUG', true);
+define('SCRIPT_DEBUG', isset($_ENV['WP_DEBUG']) && $_ENV['WP_DEBUG'] === 'true');
 define('WP_DEBUG', isset($_ENV['WP_DEBUG']) && $_ENV['WP_DEBUG'] === 'true');
 define('WP_DEBUG_LOG', isset($_ENV['WP_DEBUG_LOG']) && $_ENV['WP_DEBUG_LOG'] === 'true');
 
